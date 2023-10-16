@@ -59,5 +59,14 @@ public class Zombie{
         return false;
     }
 
+    // Print values of attributes for this zombie
+    public void printAttributes(){
+        System.out.println("Name: " + this.name);
+        System.out.println("Hunger level: " + this.get_attribute_level("hunger"));
+        System.out.println("Anger level: " + this.get_attribute_level("anger"));
+        System.out.println("Decomposition level: " + this.get_attribute_level("decomposition"));
+        System.out.println();
+    }
+
 }
     
